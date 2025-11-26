@@ -16,15 +16,18 @@ function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
-            <a 
-              href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,JJhBfcFhM6Wsid1F162in21ZYS359IwjcJ0fQysK7uk=&_dt_no_comment=1&origin=11" 
-              target="_blank" 
-              rel="noopener noreferrer"
+            <button 
+              onClick={() => {
+                const footer = document.querySelector('footer');
+                if (footer) {
+                  footer.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
               className="px-8 py-4 bg-primary text-white rounded-lg text-lg font-semibold hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center"
             >
               <i className="fas fa-user-plus mr-2"></i>
               加入邀测
-            </a>
+            </button>
             <a 
               href="https://www.alibabacloud.com/help/zh/edge-security-acceleration/esa/user-guide/what-is-functions-and-pages/" 
               target="_blank" 
