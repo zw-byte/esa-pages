@@ -24,7 +24,7 @@ function Pricing() {
     },
     {
       name: '付费模式',
-      price: '$0.72',
+      price: '¥5',
       period: '每百万次请求',
       description: '适用于企业级生产环境',
       features: [
@@ -69,10 +69,10 @@ function Pricing() {
                 <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
                 <p className="text-gray-600 mb-6">{plan.description}</p>
                 
-                <div className="mb-6">
-                  <span className="text-4xl font-bold gradient-text">{plan.price}</span>
-                  <span className="text-gray-600 ml-2">{plan.period}</span>
-                </div>
+              <div className="mb-6">
+                <span className="text-4xl font-bold gradient-text">{plan.price}</span>
+                <span className="text-gray-600 ml-2">{plan.period}</span>
+              </div>
 
                 <button className={`w-full py-3 rounded-lg font-semibold transition-all mb-8 ${
                   plan.popular 
