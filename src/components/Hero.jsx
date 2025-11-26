@@ -9,7 +9,7 @@ function Hero() {
             <span className="gradient-text">ESA - 函数和 Pages</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-4">
-            边缘全栈开发平台，全面对标 Vercel
+            边缘全栈开发平台，全面对标 Vercel和Cloudflare Pages
           </p>
           <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-12">
             深度集成 Git 工作流、全球边缘网络与智能构建系统，为企业及开发者提供从代码提交到全球分发的一站式部署解决方案
