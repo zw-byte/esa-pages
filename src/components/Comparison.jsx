@@ -341,28 +341,6 @@ function Comparison() {
             </div>
           </div>
         </div>
-
-        <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 text-center">
-          <h3 className="text-2xl font-bold mb-4">
-            <i className="fas fa-question-circle text-blue-500 mr-2"></i>
-            还在犹豫？
-          </h3>
-          <p className="text-gray-700 mb-6 max-w-3xl mx-auto">
-            我们提供免费试用和技术咨询服务,帮助您评估 ESA 是否适合您的业务场景。
-            专业的技术团队将为您提供一对一的方案设计和迁移支持。
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a 
-              href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,JJhBfcFhM6Wsid1F162in21ZYS359IwjcJ0fQysK7uk=&_dt_no_comment=1&origin=11" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition-all shadow-lg inline-flex items-center justify-center"
-            >
-              <i className="fas fa-user-plus mr-2"></i>
-              加入邀测
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
