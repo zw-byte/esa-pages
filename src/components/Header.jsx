@@ -54,7 +54,7 @@ function Header() {
 
           <div className="flex items-center space-x-4">
             <button className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition-all">
-              12月1日上线
+              12月中旬上线
             </button>
           </div>
         </div>
