@@ -7,26 +7,17 @@ function Footer() {
         <div className="bg-gradient-to-r from-primary/20 to-secondary/20 rounded-2xl p-8 mb-12">
           <h3 className="text-2xl font-bold text-center mb-8">
             <i className="fas fa-qrcode mr-2"></i>
-            加入邀测
+            立即加入
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+          <div className="flex justify-center max-w-3xl mx-auto">
             <div className="bg-white rounded-xl p-6 text-center">
               <img 
-                src="https://1d-static.alibaba-inc.com/oneday/source/b1a4f15b-a0da-4023-a374-6b38c792f1eb.png" 
+                src="https://1d-static.alibaba-inc.com/oneday/source/89a84fea-27c8-40d0-89c2-6676a0180460.png" 
                 alt="钉钉交流群"
                 className="w-48 h-48 mx-auto mb-4 rounded-lg"
               />
               <p className="text-gray-800 font-semibold">钉钉交流群</p>
               <p className="text-gray-600 text-sm mt-2">扫码加入技术交流群</p>
-            </div>
-            <div className="bg-white rounded-xl p-6 text-center">
-              <img 
-                src="https://1d-static.alibaba-inc.com/oneday/source/046ac645-0237-4774-a2a8-e5f2169c90b0.png" 
-                alt="微信ESA小助手"
-                className="w-48 h-48 mx-auto mb-4 rounded-lg"
-              />
-              <p className="text-gray-800 font-semibold">微信ESA小助手</p>
-              <p className="text-gray-600 text-sm mt-2">添加小助手获取支持</p>
             </div>
           </div>
         </div>
