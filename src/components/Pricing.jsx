@@ -74,14 +74,6 @@ function Pricing() {
                 <span className="text-gray-600 ml-2">{plan.period}</span>
               </div>
 
-                <button className={`w-full py-3 rounded-lg font-semibold transition-all mb-8 ${
-                  plan.popular 
-                    ? 'bg-primary text-white hover:bg-opacity-90' 
-                    : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
-                }`}>
-                  12月1日上线
-                </button>
-
                 <div className="space-y-4">
                   <h4 className="font-bold text-lg mb-3">功能特性：</h4>
                   {plan.features.map((feature, idx) => (
@@ -134,3 +126,4 @@ function Pricing() {
 }
 
 export default Pricing;
+
