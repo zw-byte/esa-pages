@@ -9,15 +9,24 @@ function Footer() {
             <i className="fas fa-qrcode mr-2"></i>
             立即加入
           </h3>
-          <div className="flex justify-center max-w-3xl mx-auto">
+          <div className="flex justify-center gap-8 max-w-4xl mx-auto flex-wrap">
             <div className="bg-white rounded-xl p-6 text-center">
-              <img 
-                src="https://1d-static.alibaba-inc.com/oneday/source/89a84fea-27c8-40d0-89c2-6676a0180460.png" 
+              <img
+                src="https://1d-static.alibaba-inc.com/oneday/source/de7e1d97-87e6-4c22-a34a-c9e6b3cc3fe5.jpeg"
                 alt="钉钉交流群"
                 className="w-48 h-48 mx-auto mb-4 rounded-lg"
               />
               <p className="text-gray-800 font-semibold">钉钉交流群</p>
               <p className="text-gray-600 text-sm mt-2">扫码加入技术交流群</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 text-center">
+              <img
+                src="https://1d-static.alibaba-inc.com/oneday/source/405d5c82-4406-40c0-bc23-646b73b31537.png"
+                alt="微信交流群"
+                className="w-48 h-48 mx-auto mb-4 rounded-lg"
+              />
+              <p className="text-gray-800 font-semibold">微信交流群</p>
+              <p className="text-gray-600 text-sm mt-2">扫码加入用户交流群</p>
             </div>
           </div>
         </div>
@@ -53,7 +62,7 @@ function Footer() {
           <div>
             <h4 className="font-bold mb-4">支持</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li><a href="#" className="hover:text-primary transition-colors">联系我们</a></li>
+              <li><a href="https://www.aliyun.com/product/esa" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">联系我们</a></li>
             </ul>
           </div>
         </div>
