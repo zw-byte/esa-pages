@@ -6,16 +6,16 @@ function Hero() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center animate-fade-in">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="gradient-text">函数和Pages 全面开放</span>
+            <span className="gradient-text">阿里云 ESA Pages</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-4">
-            边缘全栈开发平台，全面对标 Vercel和Cloudflare Pages
+            边缘全栈开发平台，Vercel 和 Cloudflare Pages 国内平替
           </p>
           <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-2">
             深度集成 Git 工作流、全球边缘网络与智能构建系统
           </p>
           <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-12">
-            为企业及开发者提供从代码提交到全球分发的一站式部署解决方案
+            为开发者及企业提供从代码提交到全球分发的一站式部署解决方案
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
